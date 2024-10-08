@@ -5,6 +5,11 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "start": "vitepress build && serve docs/.vitepress/dist"
+
+  },
+  "dependencies": {
+    "serve": "^14.2.3"
   }
 }
