@@ -7,7 +7,7 @@ hero:
   text: "An Understanding of Virtron Boxing Club"
   tagline: My great project tagline
   image: 
-    src: 'assets/logo2.png'
+    src: 'assets/logo21.png'
     alt: 'website logo'
   actions:
     - theme: brand
