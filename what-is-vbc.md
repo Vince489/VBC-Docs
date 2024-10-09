@@ -1,4 +1,4 @@
-# What is VBC?
+# What is VBC? <Badge type="tip" text="^1.2.4" /> <Badge type="warning" text="beta" />
 
 [Virtron Boxing Club]() (VBC) is professional esports boxing league that hosts and broadcasts streamed boxing events for the Fight Night Champion community on Xbox; in association with the [Esports Athletic Commission]() (EAC), [Esports Boxing Commission Association]() (EBCA), and fighter manager Vincent M. Cornelius II.
 
@@ -10,7 +10,11 @@ VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shi
 
 ## Custom Containers
 
-**Output**
+### Title <Badge type="info" text="default" />
+
+### Title <Badge type="danger" text="caution" />
+
+<!-- **Output**
 
 ::: info
 This is an info box.
@@ -35,4 +39,4 @@ This is a details block.
 
 ## More
 
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown). -->
