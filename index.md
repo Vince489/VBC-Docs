@@ -6,9 +6,6 @@ hero:
   name: "VBC Docs"
   text: "An Understanding of Virtron Boxing Club"
   tagline: My great project tagline
-  image: 
-    src: '/assets/logo21.png'
-    alt: 'website logo'
   actions:
     - theme: brand
       text: What is VBC?
