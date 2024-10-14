@@ -1,11 +1,10 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "VBC Docs",
   description: "An Understanding of Virtron Boxing Club",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    // remove appearance and defaultMode from here
     nav: [
       { text: 'Guide', link: '/what-is-vbc.html' },
       { text: 'Reference', link: '/#' }
@@ -14,28 +13,33 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Introduction',
-        collapsed: false, // Set to true if you want it collapsed by default
+        collapsed: false,
         items: [
           { text: 'What is VBC?', link: '/what-is-vbc' },
           { text: 'Getting Started', link: '/getting-started' },
           { text: 'Test Page', link: '/test-page' }
         ]
       },
-      {
-        text: 'Writing', // Example section like in your screenshot
-        collapsed: true, // Collapsed by default
-        items: [
-          { text: 'Markdown Extensions', link: '/markdown-extensions' },
-          { text: 'Asset Handling', link: '/asset-handling' },
-          { text: 'Frontmatter', link: '/frontmatter' },
-          { text: 'Using Vue in Markdown', link: '/using-vue-in-markdown' },
-          { text: 'Internationalization', link: '/internationalization' }
-        ]
-      }
+      // ... your other sidebar configuration
     ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Vince489' }
     ]
+  },
+
+  // Enable dark mode by default using the config
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `
+            :root {
+              color-scheme: dark;
+            }
+          `
+        }
+      }
+    }
   }
 })
