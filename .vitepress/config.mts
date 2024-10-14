@@ -17,7 +17,7 @@ export default defineConfig({
         items: [
           { text: 'What is VBC?', link: '/what-is-vbc' },
           { text: 'Getting Started', link: '/getting-started' },
-          { text: 'Test Page', link: '/test-page' }
+          { text: 'Obtaining a wallet', link: '/wallet' }
         ]
       },
       // ... your other sidebar configuration

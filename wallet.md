@@ -1,6 +1,8 @@
 ---
-title: 'test'
+outline: deep
 ---
-## Heading
+
+# Obtaining a Wallet
+
 
 [link](https://virtronboxing.club/)
